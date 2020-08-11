@@ -1,0 +1,39 @@
+{
+  "name": "damon-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "damon-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/ding-hao/damon-pages#readme",
+  "bugs": {
+    "url": "https://github.com/ding-hao/damon-pages/issues"
+  },
+  "license": "MIT",
+  "author": "damon_ding <991064183@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ding-hao/damon-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
